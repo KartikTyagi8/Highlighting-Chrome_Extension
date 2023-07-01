@@ -1,0 +1,366 @@
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+/* .rectangle_main{
+  word-wrap: break-word; 
+ } */
+
+.featured {
+  font-family: "Kaushan Script";
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.featured-container {
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-bar {
+  flex: 1;
+  padding: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.right-bar {
+  flex: 1;
+  padding: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+#search-input {
+  padding-left: 30px; /* Adjust the padding as needed */
+  padding-right: 30px; /* Adjust the padding as needed */
+  width: 482px; /* Adjust the width as needed */
+  height: 47px; /* Adjust the height as needed */
+  border-radius: 20px; /* Adjust the border radius as needed */
+  border: 1px solid #ccc; /* Add a border style as desired */
+  color: #4e4e4e;
+  text-indent: 20px;
+  font-size: 18px;
+  font-family: Inter;
+  line-height: 24px;
+  letter-spacing: -0.54px;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  left: 20px; /* Adjust the left position as needed */
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  /* background-image: url("search-icon.png"); */
+  background-size: cover;
+  pointer-events: none; /* Ensures the icon is not clickable */
+}
+
+.link-contaier {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  padding: 5px;
+}
+.color-counts-container {
+  display: flex;
+  width: 100px;
+  padding: 2px;
+  flex-direction: row;
+}
+.circle {
+  margin-right: 2px;
+  width: 21.756px;
+  height: 21.756px;
+  border-radius: 50%;
+  position: relative;
+}
+.count {
+  position: absolute;
+  font-size: 17px;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.highlight_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.highlight {
+  color: #000;
+  font-size: 12px;
+  font-family: Source Sans Pro;
+  font-weight: 300;
+  letter-spacing: -0.24px;
+  margin-bottom: 5px;
+}
+
+.rectangle-main {
+  margin-top: 20px;
+  height: 200px;
+  width: 67%;
+  border: 1px solid grey;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  justify-content: space-between;
+}
+
+.container-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tab-title {
+  font-size: 1.2rem;
+  width: 70%;
+  font-family: Inter;
+}
+.tab-link {
+  font-size: 0.8rem;
+  width: 70%;
+}
+/* .container_first{
+
+} */
+
+#text-container {
+  display: flex;
+  flex-direction: column;
+  top: 13px;
+}
+.btn-copy {
+  position: inherit;
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.rectangle-2 {
+  margin: 15px 0px;
+  background: #ffffff;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: #e2e2e2;
+  position: relative;
+  border-width: 1px;
+  width: 90%;
+  min-height: 70px;
+  height: auto; /* Set height to auto */
+  left: 15px;
+  top: 15px;
+
+  /* padding:10px 20px; */
+  display: flex; /* Add flexbox display */
+  align-items: center;
+}
+
+.rectangle-3 {
+  border-radius: 4px;
+  width: 5px;
+  height: 64px;
+  position: absolute;
+  left: -2px;
+  top: 50%; /* Adjust top position to 50% */
+  transform: translateY(-50%); /* Vertically center using transform */
+}
+.text {
+  color: #4e4e4e;
+  text-align: left;
+  font: 400 16px/24px "Inter", sans-serif;
+  padding-left: 20px; /* Add left padding to create space */
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 0px 20px;
+  width: 100%;
+}
+
+.link-title-right {
+  color: #000000;
+  text-align: left;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  position: relative;
+}
+
+.frame-20,
+.frame-20 * {
+  box-sizing: border-box;
+}
+.frame-20 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  margin-bottom: 10px;
+}
+.frame-19 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 30px;
+  position: relative;
+}
+.frame {
+  opacity: 0.6000000238418579;
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.date {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  font: 600 14px "Source Sans Pro", sans-serif;
+  position: relative;
+  width: 100px;
+}
+.date-now {
+  color: #000000;
+  text-align: left;
+  font: 600 14px "Source Sans Pro", sans-serif;
+  text-decoration: underline;
+  position: relative;
+}
+.rectangle-1 {
+  background: rgba(0, 0, 0, 0.1);
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1px;
+  position: relative;
+}
+.frame-202 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame2 {
+  opacity: 0.6000000238418579;
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.link {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  font: 600 14px "Source Sans Pro", sans-serif;
+  position: relative;
+  width: 100px;
+}
+.right-link {
+  color: #000000;
+  text-align: left;
+  font: 600 14px "Source Sans Pro", sans-serif;
+  text-decoration: underline;
+  position: relative;
+}
+
+/* .hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+} */
+
+.empty-page {
+  padding: 20% 35%;
+}
+
+.featured-text,
+.featured-text * {
+  box-sizing: border-box;
+}
+.featured-text {
+  color: #000000;
+  text-align: center;
+  font: 400 60px "Kaushan Script", sans-serif;
+}
+.just-highlight-your-important-text-while-reading-stop-worrying-about-it-getting-saved,
+.just-highlight-your-important-text-while-reading-stop-worrying-about-it-getting-saved
+  * {
+  box-sizing: border-box;
+}
+.just-highlight-your-important-text-while-reading-stop-worrying-about-it-getting-saved {
+  color: #4e4e4e;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+}
+
+.toast {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2px;
+  background-color: red;
+  border-radius: 6px;
+}
+
+.copy-fun {
+  position: relative;
+  height: 100%;
+}

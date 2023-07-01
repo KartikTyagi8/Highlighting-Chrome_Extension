@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Take notes",
+  "version": "1.0.0",
+  "description": "Take notes from your browser just by selecting the text",
+  "author": "kartik tyagi",
+  "action": {
+    "default_icon": "logo.png",
+    "default_popup": "popup.html",
+    "default_title": "Take Notes"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "permissions": ["tabs", "scripting", "storage", "http://*/", "https://*/"],
+  "host_permissions": ["<all_urls>"]
+}
